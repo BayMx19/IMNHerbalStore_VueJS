@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="src\assets\img\logo\Logo.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="IMNHerbalStore" />
+    <title>IMNHerbalStore</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,400,500"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css" />
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="src/assets/css/themify-icons.css" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="src/assets/css/owl.carousel.min.css" />
+    <!-- Main css -->
+    <link href="src/assets/css/style.css" rel="stylesheet" />
+    <style>
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #fff;
+        background: linear-gradient(
+          135deg,
+          rgb(128, 20, 20) 0%,
+          rgb(94, 43, 43) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <footer class="footer py-4 mt-auto text-center">
+      <div class="container px-5">
+        <!-- <div class="row align-items-center justify-content flex-column flex-sm-row"> -->
+        <div class="col-auto">
+          <div class="small m-0 text-white" id="copyright"></div>
+        </div>
+
+        <!-- </div> -->
+      </div>
+    </footer>
+
+    <!-- jQuery and Bootstrap -->
+    <script src="src/assets/jquery-3.2.1.min.js"></script>
+    <script src="src/assets/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="src/assets/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="src/assets/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var currentYear = new Date().getFullYear();
+        var copyrightElement = document.getElementById("copyright");
+        var linkedinBadge = document.querySelector(".LI-profile-badge");
+
+        var startYear = 2017;
+        var linkedinText =
+          "Developed with ♥ by <a class='link-footer text-white' href='https://www.linkedin.com/in/isaiman/' onmouseover='showLinkedinBadge()' onmouseout='hideLinkedinBadge()'>Isa Iman Muhammad</a>";
+
+        var copyrightText =
+          "Copyright &copy; " + currentYear + " | " + linkedinText;
+
+        copyrightElement.innerHTML = copyrightText;
+
+        function showLinkedinBadge() {
+          linkedinBadge.style.display = "block";
+        }
+
+        function hideLinkedinBadge() {
+          linkedinBadge.style.display = "none";
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
