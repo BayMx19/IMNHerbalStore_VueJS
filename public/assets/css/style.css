@@ -2,7 +2,7 @@
 
 body {
   font-family: "Rubik", sans-serif;
-  position: relative;
+  width: 100% !important;
 }
 
 a {
@@ -23,25 +23,81 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-h2 {
+h2.gomilk {
   font-size: 45px;
   font-weight: 300;
-  color: #801414;
+  color: #801414; /* Warna GOMILK */
   letter-spacing: -1px;
   margin-bottom: 1rem;
   text-align: center;
 }
 
-h3 {
-  color: #801414;
+/* Gaya untuk HITAWA */
+h2.hitawa {
+  font-size: 45px;
+  font-weight: 300;
+  color: #001a6e; /* Warna HITAWA */
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Gaya untuk FEMILE */
+h2.femile {
+  font-size: 45px;
+  font-weight: 300;
+  color: #da498d; /* Warna FEMILE */
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* GOMILK */
+h3.gomilk,
+h4.gomilk {
+  color: #801414; /* Warna GOMILK */
+}
+
+h3.gomilk {
   font-size: 33px;
   font-weight: 500;
 }
 
-h4 {
+h4.gomilk {
   font-size: 20px;
   font-weight: 500;
-  color: #801414;
+}
+
+/* HITAWA */
+h3.hitawa,
+h4.hitawa {
+  color: #001a6e; /* Warna HITAWA */
+}
+
+h3.hitawa {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+h4.hitawa {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* FEMILE */
+h3.femile,
+h4.femile {
+  color: #da498d; /* Warna FEMILE */
+}
+
+h3.femile {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+h4.femile {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 h5 {
@@ -85,25 +141,73 @@ p.lead {
   color: #801414;
 }
 
-.btn-primary {
+/* Gaya untuk GOMILK */
+.btn-primary.gomilk {
   border-radius: 3px;
-  background-color: #801414;
+  background-color: #801414; /* Warna GOMILK */
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
   font-weight: 500;
   padding: 0.6rem 2rem;
   border: 0;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary:not([disabled]):not(.disabled).active,
-.btn-primary:not([disabled]):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
+.btn-primary.gomilk:hover,
+.btn-primary.gomilk:focus,
+.btn-primary.gomilk:active,
+.btn-primary.gomilk:not([disabled]):not(.disabled).active,
+.show > .btn-primary.gomilk.dropdown-toggle {
   background-image: linear-gradient(
     122deg,
     #fd378e 0%,
     #e54595 100%
+  ) !important;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+/* Gaya untuk HITAWA */
+.btn-primary.hitawa {
+  border-radius: 3px;
+  background-color: #001a6e; /* Warna HITAWA */
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  padding: 0.6rem 2rem;
+  border: 0;
+}
+
+.btn-primary.hitawa:hover,
+.btn-primary.hitawa:focus,
+.btn-primary.hitawa:active,
+.btn-primary.hitawa:not([disabled]):not(.disabled).active,
+.show > .btn-primary.hitawa.dropdown-toggle {
+  background-image: linear-gradient(
+    122deg,
+    #1a3bb5 0%,
+    #163295 100%
+  ) !important;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+/* Gaya untuk FEMILE */
+.btn-primary.femile {
+  border-radius: 3px;
+  background-color: #da498d; /* Warna FEMILE */
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  padding: 0.6rem 2rem;
+  border: 0;
+}
+
+.btn-primary.femile:hover,
+.btn-primary.femile:focus,
+.btn-primary.femile:active,
+.btn-primary.femile:not([disabled]):not(.disabled).active,
+.show > .btn-primary.femile.dropdown-toggle {
+  background-image: linear-gradient(
+    122deg,
+    #f4529b 0%,
+    #ec3f8b 100%
   ) !important;
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -163,23 +267,10 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-  background-color: rgb(128, 20, 20) 0%;
+  background-color: #50c416;
 
-  background: -moz-linear-gradient(
-    135deg,
-    rgb(128, 20, 20) 0%,
-    rgb(94, 43, 43) 100%
-  );
-  background: -webkit-linear-gradient(
-    135deg,
-    rgb(128, 20, 20) 0%,
-    rgb(94, 43, 43) 100%
-  );
-  background: linear-gradient(
-    135deg,
-    rgb(128, 20, 20) 0%,
-    rgb(94, 43, 43) 100%
-  );
+  background: #28620b;
+
   -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -250,6 +341,12 @@ header {
     rgb(94, 43, 43) 100%
   );
 }
+.bg-gradient-hitawa {
+  background-image: -moz-linear-gradient(135deg, #001a6e 0%, #003a99 100%);
+  background-image: -webkit-linear-gradient(135deg, #001a6e 0%, #003a99 100%);
+  background-image: -ms-linear-gradient(135deg, #001a6e 0%, #003a99 100%);
+  background-image: linear-gradient(135deg, #001a6e 0%, #003a99 100%);
+}
 
 .tagline {
   font-size: 23px;
@@ -263,6 +360,13 @@ header {
   height: 0;
   padding-bottom: 33%;
   overflow: hidden;
+}
+
+.bg-gradient-femile {
+  background-image: -moz-linear-gradient(135deg, #da498d 0%, #b0356f 100%);
+  background-image: -webkit-linear-gradient(135deg, #da498d 0%, #b0356f 100%);
+  background-image: -ms-linear-gradient(135deg, #da498d 0%, #b0356f 100%);
+  background-image: linear-gradient(135deg, #da498d 0%, #b0356f 100%);
 }
 
 @media (max-width: 1200px) {
@@ -494,12 +598,24 @@ header {
   transition: all 0.3s ease-in;
 }
 
-.owl-theme .owl-dots .owl-dot:hover span {
+/* GOMILK: Hover dan Dot Aktif */
+.owl-theme .owl-dots .owl-dot.gomilk:hover span,
+.owl-theme .owl-dots .owl-dot.active.gomilk span {
   background: #801414;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
-.owl-theme .owl-dots .owl-dot.active span {
-  background: #801414;
+/* HITAWA: Hover dan Dot Aktif */
+.owl-theme .owl-dots .owl-dot.hitawa:hover span,
+.owl-theme .owl-dots .owl-dot.active.hitawa span {
+  background: #001a6e;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+
+/* FEMILE: Hover dan Dot Aktif */
+.owl-theme .owl-dots .owl-dot.femile:hover span,
+.owl-theme .owl-dots .owl-dot.active.femile span {
+  background: #da498d;
   box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -545,11 +661,26 @@ header {
   padding: 40px 0 20px;
 }
 
+/* GOMILK */
+.card.pricing .card-head .price.gomilk {
+  color: #801414; /* Warna GOMILK */
+}
+
+/* HITAWA */
+.card.pricing .card-head .price.hitawa {
+  color: #001a6e; /* Warna HITAWA */
+}
+
+/* FEMILE */
+.card.pricing .card-head .price.femile {
+  color: #da498d; /* Warna FEMILE */
+}
+
+/* Default styling */
 .card.pricing .card-head .price {
   display: block;
   font-size: 45px;
   font-weight: 300;
-  color: #801414;
 }
 
 .card.pricing .card-head .price sub {
@@ -654,23 +785,75 @@ header {
   padding: 0.75rem !important;
 }
 
-.btn-hubungi {
+/* GOMILK */
+.btn-hubungi.gomilk,
+.btn-cart.gomilk {
+  background-color: white;
+  color: #801414;
+  border: 5px solid #801414;
+}
+
+.btn-hubungi.gomilk:hover,
+.btn-cart.gomilk:hover {
+  background-color: #801414 !important;
+  color: white !important;
+  border: 5px solid white !important;
+}
+
+/* HITAWA */
+.btn-hubungi.hitawa,
+.btn-cart.hitawa {
+  background-color: white;
+  color: #001a6e;
+  border: 5px solid #001a6e;
+}
+
+.btn-hubungi.hitawa:hover,
+.btn-cart.hitawa:hover {
+  background-color: #001a6e !important;
+  color: white !important;
+  border: 5px solid white !important;
+}
+
+/* FEMILE */
+.btn-hubungi.femile,
+.btn-cart.femile {
+  background-color: white;
+  color: #da498d;
+  border: 5px solid #da498d;
+}
+
+.btn-hubungi.femile:hover,
+.btn-cart.femile:hover {
+  background-color: #da498d !important;
+  color: white !important;
+  border: 5px solid white !important;
+}
+
+/* Default styling for .btn-hubungi and .btn-cart */
+.btn-hubungi,
+.btn-cart {
   border-radius: 1rem;
-  background: #801414;
+  background: white;
   width: 20rem;
   height: 4rem;
   font-size: 24px !important;
-  color: white;
+  color: #801414;
   padding: 0.7rem;
   font-weight: bold;
   border: 5px solid transparent !important;
 }
-.btn-hubungi:hover {
+
+.btn-hubungi:hover,
+.btn-cart:hover {
   background: #ffffff !important;
   color: #801414 !important;
   border: 5px solid #801414 !important;
 }
-
 .keunggulan-berbelanja {
   text-align: center !important;
+}
+
+main {
+  width: 100% !important;
 }

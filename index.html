@@ -2,7 +2,11 @@
 <html lang="">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="src\assets\img\logo\Logo.png" />
+    <link
+      rel="icon"
+      href="
+    \public\assets\img\logo\Logo.png"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -16,47 +20,44 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="src/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/assets/css/bootstrap.min.css" />
     <!-- Themify Icons -->
-    <link rel="stylesheet" href="src/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="/public/assets/css/themify-icons.css" />
     <!-- Owl carousel -->
-    <link rel="stylesheet" href="src/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/public/assets/css/owl.carousel.min.css" />
     <!-- Main css -->
-    <link href="src/assets/css/style.css" rel="stylesheet" />
+    <link href="/public/assets/css/style.css" rel="stylesheet" />
     <style>
       ::-webkit-scrollbar {
         width: 12px;
       }
       ::-webkit-scrollbar-thumb {
         background: #fff;
-        background: linear-gradient(
-          135deg,
-          rgb(128, 20, 20) 0%,
-          rgb(94, 43, 43) 100%
-        );
+        background: #28620b;
       }
     </style>
   </head>
   <body>
-    <div id="app"></div>
-    <footer class="footer py-4 mt-auto text-center">
-      <div class="container px-5">
-        <!-- <div class="row align-items-center justify-content flex-column flex-sm-row"> -->
-        <div class="col-auto">
-          <div class="small m-0 text-white" id="copyright"></div>
-        </div>
+    <div id="app" data-spy="scroll" data-target="#navbar" data-offset="0">
+      <footer class="footer py-4 mt-auto text-center">
+        <div class="container px-5">
+          <!-- <div class="row align-items-center justify-content flex-column flex-sm-row"> -->
+          <div class="col-auto">
+            <div class="small m-0 text-white" id="copyright"></div>
+          </div>
 
-        <!-- </div> -->
-      </div>
-    </footer>
+          <!-- </div> -->
+        </div>
+      </footer>
+    </div>
 
     <!-- jQuery and Bootstrap -->
-    <script src="src/assets/jquery-3.2.1.min.js"></script>
-    <script src="src/assets/bootstrap.bundle.min.js"></script>
+    <script src="/public/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/public/assets/js/bootstrap.bundle.min.js"></script>
     <!-- Plugins JS -->
-    <script src="src/assets/owl.carousel.min.js"></script>
+    <script src="/public/assets/js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
-    <script src="src/assets/script.js"></script>
+    <script src="/public/assets/js/script.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         var currentYear = new Date().getFullYear();
@@ -81,6 +82,7 @@
         }
       });
     </script>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
