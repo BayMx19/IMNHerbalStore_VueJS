@@ -30,14 +30,15 @@ import NavBarView from "@/components/layouts/navbar.vue";
               <p class="text-dark mt-5">
                 <strong>HITAWA</strong> adalah satu formulasi khusus berbahan
                 dasar perahan susu kambing etawa yang di kombinasikan dengan
-                ekstrak herbal pilihan, yaitu daun kelor, daun salam, dan herbal
-                lainnya yang sudah lama dikenal khasiatnya oleh masyarakat untuk
-                terapi berbagai macam penyakit degeneratif. Susu kambing etawa
-                adalah minuman terbaik di dunia setelah ASI dan banyak sekali
-                manfaat bagi kesehatan. Salah satu susu hewani yang sangat cocok
-                bagi sistem pencernaan manusia, bahkan untuk balita ataupun
-                lansia sekalipun. Dari hasil penelitian para ahli dan bukti
-                sejarah membuktikan bahwa susu kambing mempunyai kelebihan
+                ekstrak herbal pilihan, yaitu jahe merah, kunyit, dan temulawak.
+                Hitawa terbuat dari bahan-bahan alami tanpa bahan pengawet atau
+                pewarna buatan. Hitawa aman dikonsumsi oleh semua orang,
+                termasuk anak-anak, ibu hamil, dan ibu menyusui. Susu kambing
+                etawa adalah minuman terbaik di dunia setelah ASI dan banyak
+                sekali manfaat bagi kesehatan. Salah satu susu hewani yang
+                sangat cocok bagi sistem pencernaan manusia, bahkan untuk balita
+                ataupun lansia sekalipun. Dari hasil penelitian para ahli dan
+                bukti sejarah membuktikan bahwa susu kambing mempunyai kelebihan
                 dibanding dengan susu hewan lainnya.
               </p>
             </div>
@@ -45,23 +46,23 @@ import NavBarView from "@/components/layouts/navbar.vue";
         </div>
         <div class="img-gallery owl-carousel owl-theme">
           <img
-            src="\public\assets\img\products\gomilk\bacaan/1.jpg"
+            src="\public\assets\img\products\hitawa\bacaan/1.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/2.jpg"
+            src="\public\assets\img\products\hitawa\bacaan/2.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/3.jpg"
+            src="\public\assets\img\products\hitawa\bacaan/3.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/4.jpg"
+            src="\public\assets\img\products\hitawa\bacaan/4.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/5.jpg"
+            src="\public\assets\img\products\hitawa\bacaan/5.jpg"
             alt="image"
           />
         </div>
@@ -74,8 +75,8 @@ import NavBarView from "@/components/layouts/navbar.vue";
         <div class="row">
           <div class="col-sm-4 col-lg-4">
             <img
-              src="\public\assets\img\products\gomilk\gomilk-1.png"
-              alt="perspective phone"
+              src="\public\assets\img\products\hitawa\hitawa-1.png"
+              alt="hitawa.png"
               class="img-fluid"
             />
           </div>
@@ -86,12 +87,12 @@ import NavBarView from "@/components/layouts/navbar.vue";
               ✔️ Halal<br />
               ✔️ Sudah Berizin BPOM<br />
               ✔️ Tidak bau amis kambing <br />
-              ✔️ Susu Kambing Etawa Plus Herbal pertama di Indonesia<br />
+              ✔️ Membantu meningkatkan kesehatan pencernaan<br />
               ✔️ Tinggi Vitamin C dan Kalsium<br />
               ✔️ Rasanya lebih lezat<br />
-              ✔️ Rasanya enak dan gurih<br />
+              ✔️ Membantu Meningkatkan daya tahan tubuh<br />
               ✔️ Cocok untuk semua usia<br />
-              ✔️ Susu terbaik setelah ASI<br />
+              ✔️ Membantu menjaga kesehatan tulang dan sendi<br />
               ✔️ Memiliki banyak khasiat untuk tubuh<br />
               ✔️ Dari bahan berkualitas<br />
               ✔️ Menurunkan Tekanan Darah Tinggi, Kolesterol, Asam Urat<br />
@@ -149,8 +150,8 @@ import NavBarView from "@/components/layouts/navbar.vue";
           </h4>
           <p class="mb-4 text-dark">
             ✔️ Gratis Konsultasi 24 Jam<br />
-            ✔️ Gratis Ongkir Wilayah Surabaya dan Sekitarnya<br />
-            ✔️ Bisa COD (Cash On Delivery)atau Bayar di Rumah<br />
+            ✔️ Gratis Ongkir Wilayah Surabaya, Gresik dan Sekitarnya<br />
+            ✔️ Bisa COD (Cash On Delivery) atau Bayar di Rumah<br />
             ✔️ Pembayaran Bisa via Transfer<br />
           </p>
         </div>
@@ -166,63 +167,63 @@ import NavBarView from "@/components/layouts/navbar.vue";
 
         <div class="img-gallery owl-carousel owl-theme">
           <img
-            src="\public\assets\img\products\gomilk\testi/1.jpg"
+            src="\public\assets\img\products\hitawa\testi/1.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/2.jpg"
+            src="\public\assets\img\products\hitawa\testi/2.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/3.jpg"
+            src="\public\assets\img\products\hitawa\testi/3.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/4.jpg"
+            src="\public\assets\img\products\hitawa\testi/4.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/5.jpg"
+            src="\public\assets\img\products\hitawa\testi/5.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/6.jpg"
+            src="\public\assets\img\products\hitawa\testi/6.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/7.jpg"
+            src="\public\assets\img\products\hitawa\testi/7.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/8.jpg"
+            src="\public\assets\img\products\hitawa\testi/8.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/9.jpg"
+            src="\public\assets\img\products\hitawa\testi/9.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/10.jpg"
+            src="\public\assets\img\products\hitawa\testi/10.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/11.jpg"
+            src="\public\assets\img\products\hitawa\testi/11.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/12.jpg"
+            src="\public\assets\img\products\hitawa\testi/12.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/13.jpg"
+            src="\public\assets\img\products\hitawa\testi/13.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/14.jpg"
+            src="\public\assets\img\products\hitawa\testi/14.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/15.jpg"
+            src="\public\assets\img\products\hitawa\testi/15.jpg"
             alt="image"
           />
         </div>

@@ -28,40 +28,40 @@ import NavBarView from "@/components/layouts/navbar.vue";
             <div class="text-center my-5">
               <h2 class="font-weight-bold femile">Tentang FEMILE</h2>
               <p class="text-dark mt-5">
-                <strong>FEMILE</strong> adalah satu formulasi khusus berbahan
-                dasar perahan susu kambing etawa yang di kombinasikan dengan
-                ekstrak herbal pilihan, yaitu daun kelor, daun salam, dan herbal
-                lainnya yang sudah lama dikenal khasiatnya oleh masyarakat untuk
-                terapi berbagai macam penyakit degeneratif. Susu kambing etawa
-                adalah minuman terbaik di dunia setelah ASI dan banyak sekali
-                manfaat bagi kesehatan. Salah satu susu hewani yang sangat cocok
-                bagi sistem pencernaan manusia, bahkan untuk balita ataupun
-                lansia sekalipun. Dari hasil penelitian para ahli dan bukti
-                sejarah membuktikan bahwa susu kambing mempunyai kelebihan
-                dibanding dengan susu hewan lainnya.
+                <strong>FEMILE</strong> adalah salah satu formulasi khusus
+                berbahan dasar perahan susu kambing etawa yang di kombinasikan
+                dengan L Glutathione, Kolagen, Ikan Gabus, dan Madu. Femile
+                memiliki kaya manfaat dan nutrisi yang penting termasuk protein,
+                kalsium, fosfor, vitamin B kompleks, vitamin A, dan zat besi.
+                Nutrisi ini dapat membantu meningkatkan esehatan ulang,sistem
+                ekebalan ubuh dan energi. L Glutathione dan Kolagen juga
+                membantu mencerahkan dan meratakan warna kulit, serta mendukung
+                proses regenerasi sel kulit. Kandungan ini juga membantu untuk
+                menjaga kehalusan dan kekencangan kulit serta membantu
+                melindungi kulit dari kerusakan akibat sinar matahari (UV).
               </p>
             </div>
           </div>
         </div>
         <div class="img-gallery owl-carousel owl-theme">
           <img
-            src="\public\assets\img\products\gomilk\bacaan/1.jpg"
+            src="\public\assets\img\products\femile\bacaan/1.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/2.jpg"
+            src="\public\assets\img\products\femile\bacaan/2.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/3.jpg"
+            src="\public\assets\img\products\femile\bacaan/3.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/4.jpg"
+            src="\public\assets\img\products\femile\bacaan/4.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\bacaan/5.jpg"
+            src="\public\assets\img\products\femile\bacaan/5.jpg"
             alt="image"
           />
         </div>
@@ -74,8 +74,8 @@ import NavBarView from "@/components/layouts/navbar.vue";
         <div class="row">
           <div class="col-sm-4 col-lg-4">
             <img
-              src="\public\assets\img\products\gomilk\gomilk-1.png"
-              alt="perspective phone"
+              src="\public\assets\img\products\femile\femile-1.png"
+              alt="femile.png"
               class="img-fluid"
             />
           </div>
@@ -86,19 +86,23 @@ import NavBarView from "@/components/layouts/navbar.vue";
               ✔️ Halal<br />
               ✔️ Sudah Berizin BPOM<br />
               ✔️ Tidak bau amis kambing <br />
-              ✔️ Susu Kambing Etawa Plus Herbal pertama di Indonesia<br />
-              ✔️ Tinggi Vitamin C dan Kalsium<br />
+              ✔️ Mencerahkan dan meratakan warna kulit<br />
+              ✔️ Tinggi Nutrisi, seperti Vitamin B Kompleks, Zat Besi, Kalsium,
+              Protein, Vitamin A, L Glutathione, Kolagen, Ekstrak Ikan Gabus,
+              dan Madu<br />
               ✔️ Rasanya lebih lezat<br />
               ✔️ Rasanya enak dan gurih<br />
               ✔️ Cocok untuk semua usia<br />
-              ✔️ Susu terbaik setelah ASI<br />
-              ✔️ Memiliki banyak khasiat untuk tubuh<br />
-              ✔️ Dari bahan berkualitas<br />
-              ✔️ Menurunkan Tekanan Darah Tinggi, Kolesterol, Asam Urat<br />
-              ✔️ Baik untuk penderita Diabetes, Maag, dan Stroke<br />
+              ✔️ Membantu menjaga kesehatan tulang dan gigi<br />
+              ✔️ Membantu menjaga kehalusan dan elastisitas kulit<br />
+              ✔️ Membantu mendukung proses regenerasi kulit<br />
+              ✔️ Membantu melindungi kulit dari kerusakan akibat sinar matahari
+              (UV)<br />
+              ✔️ Membantu menyamarkan tanda-tanda penuaan seperti keriput dan
+              garis halus pada kulit<br />
             </p>
             <a
-              href="https://wa.me/+6282191927762?text=Halo%20saya%20tertarik%20dengan%20GOMILK..."
+              href="https://wa.me/+6281330865531?text=Halo%20saya%20tertarik%20dengan%20FEMILE..."
               class="btn btn-primary femile"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -130,12 +134,12 @@ import NavBarView from "@/components/layouts/navbar.vue";
           <div class="card pricing popular">
             <div class="card-head">
               <h4 class="font-weight-bold femile">Original FEMILE</h4>
-              <span class="price femile">Rp. 35.000,-<sub>/pcs</sub></span>
+              <span class="price femile">Rp. 60.000,-<sub>/pcs</sub></span>
             </div>
 
             <div class="card-body">
               <a
-                href="https://wa.me/+6282191927762?text=Halo%20saya%20tertarik%20dengan%20GOMILK%20Rasa%20Strawberry..."
+                href="https://wa.me/+6281330865531?text=Halo%20saya%20tertarik%20dengan%20FEMILE..."
                 class="btn btn-primary femile btn-lg btn-block"
                 >Pesan</a
               >
@@ -149,8 +153,8 @@ import NavBarView from "@/components/layouts/navbar.vue";
           </h4>
           <p class="mb-4 text-dark">
             ✔️ Gratis Konsultasi 24 Jam<br />
-            ✔️ Gratis Ongkir Wilayah Surabaya dan Sekitarnya<br />
-            ✔️ Bisa COD (Cash On Delivery)atau Bayar di Rumah<br />
+            ✔️ Gratis Ongkir Wilayah Surabaya, Gresik dan Sekitarnya<br />
+            ✔️ Bisa COD (Cash On Delivery) atau Bayar di Rumah<br />
             ✔️ Pembayaran Bisa via Transfer<br />
           </p>
         </div>
@@ -166,63 +170,63 @@ import NavBarView from "@/components/layouts/navbar.vue";
 
         <div class="img-gallery owl-carousel owl-theme">
           <img
-            src="\public\assets\img\products\gomilk\testi/1.jpg"
+            src="\public\assets\img\products\femile\testi/1.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/2.jpg"
+            src="\public\assets\img\products\femile\testi/2.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/3.jpg"
+            src="\public\assets\img\products\femile\testi/3.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/4.jpg"
+            src="\public\assets\img\products\femile\testi/4.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/5.jpg"
+            src="\public\assets\img\products\femile\testi/5.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/6.jpg"
+            src="\public\assets\img\products\femile\testi/6.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/7.jpg"
+            src="\public\assets\img\products\femile\testi/7.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/8.jpg"
+            src="\public\assets\img\products\femile\testi/8.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/9.jpg"
+            src="\public\assets\img\products\femile\testi/9.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/10.jpg"
+            src="\public\assets\img\products\femile\testi/10.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/11.jpg"
+            src="\public\assets\img\products\femile\testi/11.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/12.jpg"
+            src="\public\assets\img\products\femile\testi/12.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/13.jpg"
+            src="\public\assets\img\products\femile\testi/13.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/14.jpg"
+            src="\public\assets\img\products\femile\testi/14.jpg"
             alt="image"
           />
           <img
-            src="\public\assets\img\products\gomilk\testi/15.jpg"
+            src="\public\assets\img\products\femile\testi/15.jpg"
             alt="image"
           />
         </div>
@@ -241,7 +245,7 @@ import NavBarView from "@/components/layouts/navbar.vue";
           <br />
 
           <a
-            href="https://wa.me/+6282191927762?text=Halo%20saya%20tertarik%20dengan%20GOMILK..."
+            href="https://wa.me/+6281330865531?text=Halo%20saya%20tertarik%20dengan%20FEMILE..."
             class="btn btn-hubungi femile mt-1 mb-3"
             ><svg
               xmlns="http://www.w3.org/2000/svg"

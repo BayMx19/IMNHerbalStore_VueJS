@@ -75,7 +75,7 @@ import NavBarView from "@/components/layouts/navbar.vue";
           <div class="col-sm-4 col-lg-4">
             <img
               src="\public\assets\img\products\gomilk\gomilk-1.png"
-              alt="perspective phone"
+              alt="gomilk.png"
               class="img-fluid"
             />
           </div>
@@ -177,8 +177,8 @@ import NavBarView from "@/components/layouts/navbar.vue";
           </h4>
           <p class="mb-4 text-dark">
             ✔️ Gratis Konsultasi 24 Jam<br />
-            ✔️ Gratis Ongkir Wilayah Surabaya dan Sekitarnya<br />
-            ✔️ Bisa COD (Cash On Delivery)atau Bayar di Rumah<br />
+            ✔️ Gratis Ongkir Wilayah Surabaya, Gresik dan Sekitarnya<br />
+            ✔️ Bisa COD (Cash On Delivery) atau Bayar di Rumah<br />
             ✔️ Pembayaran Bisa via Transfer<br />
           </p>
         </div>

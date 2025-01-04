@@ -1,5 +1,13 @@
 <template>
-  <div class="nav-menu fixed-top">
+  <div
+    class="nav-menu fixed-top"
+    :class="{
+      'gomilk-bg': $route.path === '/gomilk',
+      'hitawa-bg': $route.path === '/hitawa',
+      'femile-bg': $route.path === '/femile',
+      'home-bg': $route.path === '/',
+    }"
+  >
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -25,7 +33,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item" @click="reloadPage">
                   <router-link
                     to="/"
                     class="nav-link"
@@ -37,7 +45,7 @@
                     >
                   </router-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" @click="reloadPage">
                   <router-link
                     to="/gomilk"
                     class="nav-link"
@@ -46,7 +54,7 @@
                     GOMILK
                   </router-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" @click="reloadPage">
                   <router-link
                     to="/hitawa"
                     class="nav-link"
@@ -55,7 +63,7 @@
                     HITAWA
                   </router-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" @click="reloadPage">
                   <router-link
                     to="/femile"
                     class="nav-link"
@@ -66,9 +74,9 @@
                 </li>
                 <li class="nav-item">
                   <router-link
-                    to="/contact"
+                    to="/home#contact"
                     class="btn btn-outline-light my-3 my-sm-0 ml-lg-3"
-                    :class="{ active: $route.path === '/contact' }"
+                    :class="{ active: $route.path === '/home' }"
                   >
                     Anda Berminat?
                   </router-link>
@@ -81,3 +89,12 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    reloadPage() {
+      window.location.reload();
+    },
+  },
+};
+</script>
