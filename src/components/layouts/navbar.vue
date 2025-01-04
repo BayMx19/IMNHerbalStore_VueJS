@@ -72,15 +72,6 @@
                     FEMILE
                   </router-link>
                 </li>
-                <li class="nav-item">
-                  <router-link
-                    to="/home#contact"
-                    class="btn btn-outline-light my-3 my-sm-0 ml-lg-3"
-                    :class="{ active: $route.path === '/home' }"
-                  >
-                    Anda Berminat?
-                  </router-link>
-                </li>
               </ul>
             </div>
           </nav>

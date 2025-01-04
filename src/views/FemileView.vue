@@ -272,6 +272,39 @@ import NavBarView from "@/components/layouts/navbar.vue";
         </div>
       </div>
     </div>
+    <footer class="footer py-4 mt-auto text-center">
+      <div class="container px-5">
+        <!-- <div class="row align-items-center justify-content flex-column flex-sm-row"> -->
+        <div class="col-auto">
+          <div class="small m-0 text-white" id="copyright"></div>
+        </div>
+
+        <!-- </div> -->
+      </div>
+    </footer>
     <!-- // end .section -->
   </main>
 </template>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var currentYear = new Date().getFullYear();
+  var copyrightElement = document.getElementById("copyright");
+  var linkedinBadge = document.querySelector(".LI-profile-badge");
+
+  var startYear = 2017;
+  var linkedinText =
+    "Developed with ♥ by <a class='link-footer text-white' href='https://www.linkedin.com/in/isaiman/' onmouseover='showLinkedinBadge()' onmouseout='hideLinkedinBadge()'>Isa Iman Muhammad</a>";
+
+  var copyrightText = "Copyright &copy; " + currentYear + " | " + linkedinText;
+
+  copyrightElement.innerHTML = copyrightText;
+
+  function showLinkedinBadge() {
+    linkedinBadge.style.display = "block";
+  }
+
+  function hideLinkedinBadge() {
+    linkedinBadge.style.display = "none";
+  }
+});
+</script>

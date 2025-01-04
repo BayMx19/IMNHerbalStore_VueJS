@@ -3,7 +3,6 @@ import HomeView from "../views/HomeView.vue";
 import FemileView from "@/views/FemileView.vue";
 import GomilkView from "@/views/GomilkView.vue";
 import HitawaView from "@/views/HitawaView.vue";
-import ContactView from "@/views/ContactView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,11 +26,6 @@ const router = createRouter({
       path: "/femile",
       name: "Femile",
       component: FemileView,
-    },
-    {
-      path: "/contact",
-      name: "Contact",
-      component: ContactView,
     },
   ],
 });
