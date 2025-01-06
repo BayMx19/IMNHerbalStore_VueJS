@@ -421,6 +421,14 @@ header {
   overflow: hidden;
 }
 
+.img-fluid {
+  max-width: 200% !important;
+}
+
+.img-fluid-products {
+  max-width: 100% !important;
+}
+
 .bg-gradient-femile {
   background-image: -moz-linear-gradient(135deg, #da498d 0%, #b0356f 100%);
   background-image: -webkit-linear-gradient(135deg, #da498d 0%, #b0356f 100%);

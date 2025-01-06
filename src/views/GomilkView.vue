@@ -14,7 +14,7 @@ import NavBarView from "@/components/layouts/navbar.vue";
       </div>
       <div class="img-holder mt-3">
         <img
-          src="\public\assets\img\products\gomilk\gomilk-header.png"
+          src="\assets\img\products\gomilk\gomilk-header.png"
           alt="gomilk"
           class="img-fluid"
         />
@@ -44,26 +44,11 @@ import NavBarView from "@/components/layouts/navbar.vue";
           </div>
         </div>
         <div class="img-gallery owl-carousel owl-theme">
-          <img
-            src="\public\assets\img\products\gomilk\bacaan/1.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\bacaan/2.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\bacaan/3.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\bacaan/4.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\bacaan/5.jpg"
-            alt="image"
-          />
+          <img src="\assets\img\products\gomilk\bacaan/1.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\bacaan/2.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\bacaan/3.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\bacaan/4.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\bacaan/5.jpg" alt="image" />
         </div>
       </div>
     </div>
@@ -74,9 +59,9 @@ import NavBarView from "@/components/layouts/navbar.vue";
         <div class="row">
           <div class="col-sm-4 col-lg-4">
             <img
-              src="\public\assets\img\products\gomilk\gomilk-1.png"
+              src="\assets\img\products\gomilk\gomilk-1.png"
               alt="gomilk.png"
-              class="img-fluid"
+              class="img-fluid img-fluid-products"
             />
           </div>
           <div class="col-sm-8 col-lg-8 py-5">
@@ -193,66 +178,21 @@ import NavBarView from "@/components/layouts/navbar.vue";
         </div>
 
         <div class="img-gallery owl-carousel owl-theme">
-          <img
-            src="\public\assets\img\products\gomilk\testi/1.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/2.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/3.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/4.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/5.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/6.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/7.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/8.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/9.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/10.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/11.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/12.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/13.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/14.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\gomilk\testi/15.jpg"
-            alt="image"
-          />
+          <img src="\assets\img\products\gomilk\testi/1.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/2.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/3.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/4.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/5.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/6.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/7.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/8.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/9.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/10.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/11.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/12.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/13.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/14.jpg" alt="image" />
+          <img src="\assets\img\products\gomilk\testi/15.jpg" alt="image" />
         </div>
       </div>
     </div>

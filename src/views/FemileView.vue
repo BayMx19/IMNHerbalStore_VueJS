@@ -8,15 +8,15 @@ import NavBarView from "@/components/layouts/navbar.vue";
       <div class="container mt-5">
         <h1 class="font-weight-bold">FEMILE</h1>
         <p class="tagline">
-          Rasakan Keajaiban Kesehatan dengan GOMILK: Susu Kambing Etawa Plus
-          Herbal Pilihan Terbaik! 🌿✨.
+          Rasakan Keajaiban Kesehatan dengan FEMILE: Susu Kambing Etawa Plus
+          L-Glutathione Pilihan Terbaik! 🌿✨.
         </p>
       </div>
-      <div class="img-holder mt-3">
+      <div class="img-holder mt-5">
         <img
-          src="\public\assets\img\products\gomilk\gomilk-header.png"
-          alt="gomilk"
-          class="img-fluid"
+          src="\assets\img\products\femile\femile-header.png"
+          alt="femile"
+          class="img-fluid img-fluid-products"
         />
       </div>
     </header>
@@ -44,26 +44,11 @@ import NavBarView from "@/components/layouts/navbar.vue";
           </div>
         </div>
         <div class="img-gallery owl-carousel owl-theme">
-          <img
-            src="\public\assets\img\products\femile\bacaan/1.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\bacaan/2.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\bacaan/3.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\bacaan/4.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\bacaan/5.jpg"
-            alt="image"
-          />
+          <img src="\assets\img\products\femile\bacaan/1.jpg" alt="image" />
+          <img src="\assets\img\products\femile\bacaan/2.jpg" alt="image" />
+          <img src="\assets\img\products\femile\bacaan/3.jpg" alt="image" />
+          <img src="\assets\img\products\femile\bacaan/4.jpg" alt="image" />
+          <img src="\assets\img\products\femile\bacaan/5.jpg" alt="image" />
         </div>
       </div>
     </div>
@@ -74,9 +59,9 @@ import NavBarView from "@/components/layouts/navbar.vue";
         <div class="row">
           <div class="col-sm-4 col-lg-4">
             <img
-              src="\public\assets\img\products\femile\femile-1.png"
+              src="\assets\img\products\femile\femile-1.png"
               alt="femile.png"
-              class="img-fluid"
+              class="img-fluid img-fluid-products"
             />
           </div>
           <div class="col-sm-8 col-lg-8 py-5">
@@ -169,66 +154,21 @@ import NavBarView from "@/components/layouts/navbar.vue";
         </div>
 
         <div class="img-gallery owl-carousel owl-theme">
-          <img
-            src="\public\assets\img\products\femile\testi/1.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/2.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/3.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/4.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/5.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/6.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/7.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/8.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/9.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/10.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/11.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/12.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/13.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/14.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\femile\testi/15.jpg"
-            alt="image"
-          />
+          <img src="\assets\img\products\femile\testi/1.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/2.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/3.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/4.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/5.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/6.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/7.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/8.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/9.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/10.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/11.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/12.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/13.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/14.jpg" alt="image" />
+          <img src="\assets\img\products\femile\testi/15.jpg" alt="image" />
         </div>
       </div>
     </div>

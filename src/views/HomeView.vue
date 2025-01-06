@@ -36,7 +36,7 @@ import NavBarView from "@/components/layouts/navbar.vue";
                 <div class="card-body">
                   <h5 class="card-title">Gomilk</h5>
                   <p class="card-text">
-                    Susu kambing berkualitas untuk kesehatan Anda.
+                    Susu Kambing Etawa Plus Herbal Pilihan Terbaik!
                   </p>
                 </div>
               </div></a
@@ -48,11 +48,14 @@ import NavBarView from "@/components/layouts/navbar.vue";
                 <img
                   src="\public\assets\img\products\hitawa\hitawa-1.png"
                   class="card-img-top"
+                  style="max-width: 97% !important"
                   alt="Hitawa"
                 />
                 <div class="card-body">
                   <h5 class="card-title">Hitawa</h5>
-                  <p class="card-text">Minuman herbal untuk vitalitas tubuh.</p>
+                  <p class="card-text">
+                    Susu Kambing Etawa Plus Jahe Pilihan Terbaik!
+                  </p>
                 </div>
               </div></a
             >
@@ -64,10 +67,13 @@ import NavBarView from "@/components/layouts/navbar.vue";
                   src="\public\assets\img\products\femile\femile-1.png"
                   class="card-img-top"
                   alt="Femile"
+                  style="max-width: 97% !important"
                 />
                 <div class="card-body">
                   <h5 class="card-title">Femile</h5>
-                  <p class="card-text">Produk herbal khusus untuk wanita.</p>
+                  <p class="card-text">
+                    Susu Kambing Etawa Plus L-Glutathione Pilihan Terbaik!
+                  </p>
                 </div>
               </div></a
             >
@@ -82,7 +88,7 @@ import NavBarView from "@/components/layouts/navbar.vue";
             <div class="col-sm-6">
               <h2 class="font-weight-bold mb-5">Temukan Kami</h2>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126648.92678723784!2d112.63368586215465!3d-7.265977165911703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f955265ac4c5%3A0xf3f1477ccd16656b!2sJl.%20Petemon%20IV%20No.157G%2C%20RT.002%2FRW.13%2C%20Petemon%2C%20Kec.%20Sawahan%2C%20Surabaya%2C%20Jawa%20Timur%2060252!5e0!3m2!1sen!2sid!4v1704627115255!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7432.731636921091!2d112.54310527363262!3d-7.231443315927946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780106a92bb377%3A0x9748f312712b07be!2sIMNHerbalStore!5e0!3m2!1sen!2sid!4v1736154563502!5m2!1sen!2sid"
                 width="400"
                 height="300"
                 style="border: 0"
@@ -97,7 +103,7 @@ import NavBarView from "@/components/layouts/navbar.vue";
               </h2>
               <br /><br />
               <a
-                href="https://wa.me/+6281330865531?text=Halo%20saya%20tertarik%20dengan%20GOMILK..."
+                href="https://wa.me/+6281330865531?text=Halo%20saya%20tertarik%20dengan%20produk%20anda..."
                 class="btn btn-hubungi home mt-1 mb-3"
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"

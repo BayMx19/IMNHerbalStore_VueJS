@@ -8,14 +8,14 @@ import NavBarView from "@/components/layouts/navbar.vue";
       <div class="container mt-5">
         <h1 class="font-weight-bold">HITAWA</h1>
         <p class="tagline">
-          Rasakan Keajaiban Kesehatan dengan GOMILK: Susu Kambing Etawa Plus
-          Herbal Pilihan Terbaik! 🌿✨.
+          Rasakan Keajaiban Kesehatan dengan HITAWA: Susu Kambing Etawa Plus
+          Jahe Pilihan Terbaik! 🌿✨.
         </p>
       </div>
-      <div class="img-holder mt-3">
+      <div class="img-holder mt-5">
         <img
-          src="\public\assets\img\products\gomilk\gomilk-header.png"
-          alt="gomilk"
+          src="\assets\img\products\hitawa\hitawa-header.png"
+          alt="hitawa"
           class="img-fluid"
         />
       </div>
@@ -45,26 +45,11 @@ import NavBarView from "@/components/layouts/navbar.vue";
           </div>
         </div>
         <div class="img-gallery owl-carousel owl-theme">
-          <img
-            src="\public\assets\img\products\hitawa\bacaan/1.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\bacaan/2.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\bacaan/3.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\bacaan/4.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\bacaan/5.jpg"
-            alt="image"
-          />
+          <img src="\assets\img\products\hitawa\bacaan/1.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\bacaan/2.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\bacaan/3.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\bacaan/4.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\bacaan/5.jpg" alt="image" />
         </div>
       </div>
     </div>
@@ -75,9 +60,9 @@ import NavBarView from "@/components/layouts/navbar.vue";
         <div class="row">
           <div class="col-sm-4 col-lg-4">
             <img
-              src="\public\assets\img\products\hitawa\hitawa-1.png"
+              src="\assets\img\products\hitawa\hitawa-1.png"
               alt="hitawa.png"
-              class="img-fluid"
+              class="img-fluid img-fluid-products"
             />
           </div>
           <div class="col-sm-8 col-lg-8 py-5">
@@ -166,66 +151,21 @@ import NavBarView from "@/components/layouts/navbar.vue";
         </div>
 
         <div class="img-gallery owl-carousel owl-theme">
-          <img
-            src="\public\assets\img\products\hitawa\testi/1.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/2.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/3.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/4.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/5.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/6.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/7.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/8.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/9.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/10.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/11.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/12.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/13.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/14.jpg"
-            alt="image"
-          />
-          <img
-            src="\public\assets\img\products\hitawa\testi/15.jpg"
-            alt="image"
-          />
+          <img src="\assets\img\products\hitawa\testi/1.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/2.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/3.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/4.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/5.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/6.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/7.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/8.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/9.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/10.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/11.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/12.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/13.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/14.jpg" alt="image" />
+          <img src="\assets\img\products\hitawa\testi/15.jpg" alt="image" />
         </div>
       </div>
     </div>
